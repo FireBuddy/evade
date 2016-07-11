@@ -173,7 +173,7 @@ namespace EvadePlus
         {
             if (!sender.IsMe)
             {
-                return;
+              //  return;
             }
 
             if (args.Order == GameObjectOrder.AttackUnit)
@@ -226,7 +226,7 @@ namespace EvadePlus
         {
             if (!sender.IsMe)
             {
-                return;
+          //      return;
             }
 
             if (args.SData.Name == "summonerflash")
@@ -239,7 +239,7 @@ namespace EvadePlus
         {
             if (!sender.IsMe || LastEvadeResult == null)
             {
-                return;
+            //    return;
             }
 
             LastEvadeResult = null;
