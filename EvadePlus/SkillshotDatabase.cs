@@ -2893,21 +2893,21 @@ namespace EvadePlus
                         MissileSpellName = "ZedQMissile"
                     }
                 },
-                //new CircularMissileSkillshot
-                //{
-                //    SpellData = new SpellData
-                //    {
-                //        ChampionName = "Zed",
-                //        SpellName = "ZedPBAOEDummy",
-                //        Slot = SpellSlot.E,
-                //        Delay = 0,
-                //        Range = 290,
-                //        Radius = 290,
-                //        MissileSpeed = 0,
-                //        DangerValue = 3,
-                //        MissileSpellName = "ZedPBAOEDummy"
-                //    }
-                //},
+                new LinearMissileSkillshot
+                {
+                    SpellData = new SpellData
+                    {
+                        ChampionName = "Zed",
+                        SpellName = "ZedPBAOEDummy",
+                        Slot = SpellSlot.E,
+                        Delay = 0,
+                        Range = 700,
+                        Radius = 290,
+                        MissileSpeed = 1750,
+                        DangerValue = 3,
+                        MissileSpellName = "ZedPBAOEDummy"
+                    }
+                },
                 //new CircularMissileSkillshot
                 //{
                 //    SpellData = new SpellData
