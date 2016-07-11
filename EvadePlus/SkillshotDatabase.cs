@@ -2657,6 +2657,21 @@ namespace EvadePlus
                         ChampionName = "Viktor",
                         SpellName = "ViktorDeathRay",
                         Slot = SpellSlot.E,
+                        Delay = 1000,
+                        Range = 1100,
+                        Radius = 80,
+                        MissileSpeed = 2000,
+                        DangerValue = 3,
+                        MissileSpellName = "ViktorDeathRay"
+                    }
+                },
+                new LinearMissileSkillshot
+                {
+                    SpellData = new SpellData
+                    {
+                        ChampionName = "Viktor",
+                        SpellName = "ViktorDeathRay",
+                        Slot = SpellSlot.E,
                         Delay = 0,
                         Range = 800,
                         Radius = 80,
