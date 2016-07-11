@@ -2650,36 +2650,51 @@ namespace EvadePlus
                 //        MissileSpellName = "ViQMissile"
                 //    }
                 //},
-                //new LinearMissileSkillshot //Unknown:
-                //{
-                //    SpellData = new SpellData
-                //    {
-                //        ChampionName = "Viktor",
-                //        SpellName = "ViktorDeathRay",
-                //        Slot = SpellSlot.E,
-                //        Delay = 0,
-                //        Range = 800,
-                //        Radius = 80,
-                //        MissileSpeed = 780,
-                //        DangerValue = 3,
-                //        MissileSpellName = "ViktorDeathRayMissile"
-                //    }
-                //},
-                //new LinearMissileSkillshot
-                //{
-                //    SpellData = new SpellData
-                //    {
-                //        ChampionName = "Viktor",
-                //        SpellName = "ViktorDeathRay3",
-                //        Slot = SpellSlot.E,
-                //        Delay = 500,
-                //        Range = 800,
-                //        Radius = 80,
-                //        MissileSpeed = 0,
-                //        DangerValue = 3,
-                //        MissileSpellName = "ViktorDeathRay3"
-                //    }
-                //},
+                new LinearMissileSkillshot
+                {
+                    SpellData = new SpellData
+                    {
+                        ChampionName = "Viktor",
+                        SpellName = "ViktorDeathRay",
+                        Slot = SpellSlot.E,
+                        Delay = 0,
+                        Range = 800,
+                        Radius = 80,
+                        MissileSpeed = 780,
+                        DangerValue = 3,
+                        MissileSpellName = "ViktorDeathRayMissile"
+                    }
+                },
+                new LinearMissileSkillshot
+                {
+                    SpellData = new SpellData
+                    {
+                        ChampionName = "Viktor",
+                        SpellName = "ViktorDeathRay",
+                        Slot = SpellSlot.E,
+                        Delay = 0,
+                        Range = 800,
+                        Radius = 80,
+                        MissileSpeed = 780,
+                        DangerValue = 3,
+                        MissileSpellName = "ViktorEAugMissile"
+                    }
+                },
+                new LinearMissileSkillshot
+                {
+                    SpellData = new SpellData
+                    {
+                        ChampionName = "Viktor",
+                        SpellName = "ViktorDeathRay3",
+                        Slot = SpellSlot.E,
+                        Delay = 500,
+                        Range = 800,
+                        Radius = 80,
+                        MissileSpeed = 0,
+                        DangerValue = 3,
+                        MissileSpellName = "ViktorDeathRay3"
+                    }
+                },
                 //new LinearMissileSkillshot
                 //{
                 //    SpellData = new SpellData
